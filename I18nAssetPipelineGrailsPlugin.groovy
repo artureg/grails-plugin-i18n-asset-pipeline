@@ -5,7 +5,7 @@ import org.codehaus.groovy.grails.context.support.PluginAwareResourceBundleMessa
 
 class I18nAssetPipelineGrailsPlugin {
 
-  def version = "1.0"
+  def version = "0.11"
   def grailsVersion = "2.0 > *"
 
   def watchedResources = ['file:./grails-app/views/_fields/**']
@@ -24,8 +24,8 @@ class I18nAssetPipelineGrailsPlugin {
   def documentation = "http://github.com/artureg/grails-plugin-i18n-asset-pipeline"
 
   def license = "APACHE"
-  def issueManagement = [system: "GITHUB", url: "http://github.com/craigburke/angular-i18n-asset-pipeline/issues"]
-  def scm = [url: "http://github.com/craigburke/angular-i18n-asset-pipeline"]
+  def issueManagement = [system: "GITHUB", url: "http://github.com/artureg/grails-plugin-i18n-asset-pipeline/issues"]
+  def scm = [url: "http://github.com/artureg/grails-plugin-i18n-asset-pipeline"]
 
   def loadAfter = ['fields']
 
